@@ -1,3 +1,6 @@
+import "babel-core/register"
+import 'babel-polyfill'
+
 import React from 'react'
 import PropTypes from 'prop-types'
 

@@ -1,4 +1,3 @@
-import 'babel-polyfill'
 import React from 'react'
 import { mount, shallow } from 'enzyme'
 import RenderInSeries from './index.js'
