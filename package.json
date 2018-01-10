@@ -1,6 +1,6 @@
 {
   "name": "react-render-in-series",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A smart react component which renders children over time",
   "main": "build/index.js",
   "peerDependencies": {
