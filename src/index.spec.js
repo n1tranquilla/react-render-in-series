@@ -2,11 +2,6 @@ import React from 'react'
 import { mount, shallow } from 'enzyme'
 import RenderInSeries from './index.js'
 
-const enzyme = require('enzyme')
-const Adapter = require('enzyme-adapter-react-16')
-
-enzyme.configure({ adapter: new Adapter() })
-
 const timeout = (ms) => new Promise(resolve => setTimeout(resolve, ms))
 
 const baseProps={

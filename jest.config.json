@@ -1,0 +1,5 @@
+{
+  "setupFiles":[
+    "./jest.init.js"
+  ]
+}

@@ -4127,7 +4127,8 @@ module.exports = warning;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(94);
-module.exports = __webpack_require__(333);
+__webpack_require__(333);
+module.exports = __webpack_require__(336);
 
 
 /***/ }),
@@ -9403,6 +9404,42 @@ module.exports = function (regExp, replace) {
 
 /***/ }),
 /* 333 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_core_register__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_core_register___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_core_register__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_polyfill__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_polyfill___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_polyfill__);
+
+
+
+
+/***/ }),
+/* 334 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* eslint max-len: 0 */
+// TODO: eventually deprecate this console.trace("use the `babel-register` package instead of `babel-core/register`");
+module.exports = __webpack_require__(335);
+
+
+/***/ }),
+/* 335 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+exports.default = function () {};
+
+module.exports = exports["default"];
+
+/***/ }),
+/* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9414,15 +9451,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-__webpack_require__(334);
-
-__webpack_require__(94);
-
-var _react = __webpack_require__(336);
+var _react = __webpack_require__(337);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(337);
+var _propTypes = __webpack_require__(338);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -9527,35 +9560,13 @@ RenderInSeries.defaultProps = {
 exports.default = RenderInSeries;
 
 /***/ }),
-/* 334 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* eslint max-len: 0 */
-// TODO: eventually deprecate this console.trace("use the `babel-register` package instead of `babel-core/register`");
-module.exports = __webpack_require__(335);
-
-
-/***/ }),
-/* 335 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-exports.default = function () {};
-
-module.exports = exports["default"];
-
-/***/ }),
-/* 336 */
+/* 337 */
 /***/ (function(module, exports) {
 
 module.exports = require("react");
 
 /***/ }),
-/* 337 */
+/* 338 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process) {/**
@@ -9580,17 +9591,17 @@ if (process.env.NODE_ENV !== 'production') {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(338)(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(339)(isValidElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(341)();
+  module.exports = __webpack_require__(342)();
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(49)))
 
 /***/ }),
-/* 338 */
+/* 339 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9606,10 +9617,10 @@ if (process.env.NODE_ENV !== 'production') {
 var emptyFunction = __webpack_require__(91);
 var invariant = __webpack_require__(92);
 var warning = __webpack_require__(130);
-var assign = __webpack_require__(339);
+var assign = __webpack_require__(340);
 
 var ReactPropTypesSecret = __webpack_require__(93);
-var checkPropTypes = __webpack_require__(340);
+var checkPropTypes = __webpack_require__(341);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -10140,7 +10151,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(49)))
 
 /***/ }),
-/* 339 */
+/* 340 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10237,7 +10248,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 340 */
+/* 341 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10304,7 +10315,7 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(49)))
 
 /***/ }),
-/* 341 */
+/* 342 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
