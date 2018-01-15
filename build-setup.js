@@ -1,3 +1,2 @@
-
-import "babel-core/register"
-import 'babel-polyfill'
+require("babel-core/register");
+require("babel-polyfill");

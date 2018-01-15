@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  entry: ['babel-polyfill','./build-setup.js','./src/index.js'],
+  entry: ['./build-setup.js','./src/index.js'],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
